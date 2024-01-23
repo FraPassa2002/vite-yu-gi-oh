@@ -12,9 +12,12 @@ export default {
 </script>
 
 <template>
-    <footer>
+    <footer class="p-3">
     </footer>
 </template>
 
 <style lang="scss" scoped>
+footer {
+    background-color:rebeccapurple;;
+}
 </style>

@@ -6,8 +6,7 @@ export default {
         };
     },
     props: {
-        card: Object,
-        card_images: Array
+        card: Object,    
     }
 }
 </script>
@@ -15,7 +14,7 @@ export default {
 <template>
     <div class="single-card">
         <div class="mb-2">
-            <img class="w-100" :src="card.card_images" :alt="card.name">
+            <img class="w-100" :src="card.card_images[0].image_url" :alt="card.name">
         </div>
 
         <div>

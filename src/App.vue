@@ -23,7 +23,7 @@ export default {
         axios
             .get(this.store.baseUrl)
             .then((response) => {
-                console.log(response);
+                // console.log(response);
                 this.store.cards = response.data.data;
                 console.log(this.store.cards);
 
